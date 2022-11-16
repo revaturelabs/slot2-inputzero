@@ -1,12 +1,12 @@
-Tell me about yourself 
+### Tell me about yourself 
 
-Project
- -> I worked on a <Project Name>
- -> describe your project:
- -> the userstories/modules/ responsiblites you've worked on  
- -> technologies used: In these project, we've used Angular to develop a front end and 
+#### Project
+ - I worked on a <Project Name>
+ - describe your project:
+ - the userstories/modules/ responsiblites you've worked on  
+ - technologies used: In these project, we've used Angular to develop a front end and 
 		      Spring as a backend.
- -> dataflow (user stories/when you explain)
+ - dataflow (user stories/when you explain)
 
 Java -> features, JVM/JRE/JDK, platform independent
 (what do you know about java, what's experience with ur java)
@@ -72,7 +72,7 @@ the entire history/flow of method calls(main -> m1 -> m2)
 -> to know you can use printstack tree()
 
 
-Problems to be solved
+### Problems to be solved (Try these problems with collections)
 
 1. Given a list of integers, find out all the even numbers exist in the list
 2. Given a list of integers, find out all the numbers starting with 1
@@ -84,4 +84,55 @@ Problems to be solved
 8. Given a list of integers, sort all the values present in it in descending order
 
 
+Collection Framework -> java.util package
 
+Collection Interface -> List, Set, Queue
+Map Interface
+
+* Map Interface doesn't extend Collection interface/Iterable interface but its a part of collection framework
+
+things common for collection frame work
+
+-> all are objects(Arraylist, linkedlist, hash set, hashmap classes)
+-> can allows us to store hetrogenous(differen,-> string, number, object in a same list)
+-> size not fixed (you don't worry size)
+-> .size() method -> print the size/length
+
+
+Collection Interface vs Map Interface
+
+-> Collection Interface extends iterable interface wheras Map not
+-> All the classes implements the collection interface stores data but Map stores as key value pair
+
+
+List Vs Set
+
+-> List allows dulpicates whereas set not (set doesn't allow duplicates)
+-> You can acess elements inside your list using indexes. But indexes not there set
+-> list follows insertion order whereas hashset doesn't  follow any order,
+     (treeset follows ascending order, linkedhashset follows insertion order)
+
+-> unique values (data)
+hashset -> doesn't  follow any order
+Linkedhashset -> follows insertion order
+treeset-> ascending order
+
+-> unique keys (key)
+Hashmap -> doesn't  follow any order (ONE NULL KEY ALLOWED)
+LinkedHashmap-> follows insertion order (ONE NULL KEY ALLOWED)
+TreeMap -> ascending order (NULL KEY IS NOT ALLOWED)
+
+
+key
+
+- unique keys
+- one null is allowed
+
+WHAT HAPPENS IF WE PUT/ADD THE SAME KEY INTO A MAP
+
+When you are trying to put the same again like
+
+hm.put(1, "One")
+hm.put(1, "ONE")
+
+your key 1 is updated with latest value i.e "ONE"
