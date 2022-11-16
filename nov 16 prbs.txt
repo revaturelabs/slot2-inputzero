@@ -1,0 +1,42 @@
+Prb 1: Count Characters in the String 
+
+"Java is awesome"
+
+J -> 1
+a -> 3
+v -> 1
+i ->1 
+s -> 2
+w -> 1
+e -> 2
+o -> 1
+
+Prb 2 : Reverse the last half
+
+Input: Apple -> length = 5  -> odd -> last half = ple  -> reverse = elp
+
+output: Apelp
+
+Input: Bank -> length = 4 -> even -> last half = nk -> reverse = kn
+
+output: Bakn
+
+Prb 3: Print unique numbers in the list/array
+
+Input:  1, 2, 3, 2, 4, 1, 4
+
+Output: 3  (becoz 3 occurred only one time)
+
+Input: 1, 2, 3, 4, 4, 3
+
+Output: 1 2  (becoz 1 and 2 occurred only one time)
+
+
+Prb 4: Caps Vowels
+
+Input: porkodi
+Output: pOrkOdi
+
+(make vowels to the captails letter)
+
+
