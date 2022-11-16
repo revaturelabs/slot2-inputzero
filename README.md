@@ -72,5 +72,16 @@ the entire history/flow of method calls(main -> m1 -> m2)
 -> to know you can use printstack tree()
 
 
+Problems to be solved
+
+1. Given a list of integers, find out all the even numbers exist in the list
+2. Given a list of integers, find out all the numbers starting with 1
+3. How to find duplicate elements in a given integers list in java
+4. Given a list of integers, find the maximum/minimun value element present in it
+5. Given a String, find the first non-repeated character in it
+6. Given a String, find the first repeated character in it
+7. Given a list of integers, sort all the values present in it
+8. Given a list of integers, sort all the values present in it in descending order
+
 
 
