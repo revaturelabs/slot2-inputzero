@@ -1,0 +1,22 @@
+Prb 5 : find first repeated char in a string 
+
+"Java is awesome"
+
+J -> 1
+a -> 3
+
+output: a
+
+"Im from chennai"
+
+output : i
+
+Prb 6 : find first non repeated char in a string
+
+"Java is awesome"
+
+output: J
+
+"Im from chennai"
+
+output : f
