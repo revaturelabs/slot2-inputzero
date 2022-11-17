@@ -52,6 +52,8 @@ c -> 23578136487
 heap -> data inside the object
 
 OOPs -> a pie -> what is it, example, how to implement in java
+
+
 functional Interface -> has only one abstract method 
 
 Exceptions -> checked and unchecked exceptions, custom exceptions, try, catch, finally, throw, throws
