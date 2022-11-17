@@ -64,7 +64,39 @@ static method
 Syntax: interfacename.methodname();
 
 2. Functional Interfaces
+
+- is also interface
+- but with only one abstract method
+- @FunctionalInterface -> that means it has only one abstract
+- any number of default/static methods
+
+in built functional interfaces
+
+-> Runnable -> run() -> allows you to provide an implementation code that thread should run
+-> Consumer
+-> Suppiler
+-> Predicate
+-> Function
+
 3. Lambda Experession
+
+basically, it provides the defn for the abstract method inside functional interface
+anonymus function
+achieve functional 
+
+ /**Step1**/
+	   //FunctionalInterfacename <referencename> =  () ->  //line
+	   //FunctionalInterfacename <reference name> = () -> { //line 1; //line2}
+	   
+	   /**Step2**/
+	   //calling 
+	   //referencename.abstractmethodname()
+
+no need for implements, if you use functional interface and lambda expression
+
 4. forEach() methods
+
+
 5. Anonymous Class
 6. Method References
+
