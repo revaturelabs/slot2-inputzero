@@ -1,7 +1,7 @@
 ### Tell me about yourself 
 
 #### Project
- - I worked on a <Project Name>
+ - I worked on a Project Name
  - describe your project:
  - the userstories/modules/ responsiblites you've worked on  
  - technologies used: In these project, we've used Angular to develop a front end and 
