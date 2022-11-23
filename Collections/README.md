@@ -2,7 +2,8 @@
 Collection Framework -> java.util package
 
 Collection Interface -> List, Set, Queue
-Map Interface
+
+### Map Interface
 
 * Map Interface doesn't extend Collection interface/Iterable interface but its a part of collection framework
 
