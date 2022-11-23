@@ -8,18 +8,25 @@
 		      Spring as a backend.
  - dataflow (user stories/when you explain)
 
+## Java
+
+### Java Basics
 Java -> features, JVM/JRE/JDK, platform independent
 (what do you know about java, what's experience with ur java)
 
 control statements -> for, for each, do while, while , if , if else, switch
 (problem solving, predict the output, error debugging)
 
-Arrays -> declare, addding element to an array, accessing any element
-          .length attribute, 1D array, 2D array
-
 access modifiers -> private, public, protected and default
 
 non access modifiers -> static , final -> variable, method, class
+
+### Arrays
+
+Arrays -> declare, addding element to an array, accessing any element
+          .length attribute, 1D array, 2D array
+
+### Strings
 
 Strings -> immutables, string pool, 
 
@@ -43,6 +50,8 @@ thread -> program in execution
 main thread -> main method
 multiple threads are created to perform the task simulante
 
+### Stack vs heap memory
+
 Car c  = new Car()
 
 stack
@@ -51,10 +60,14 @@ c -> 23578136487
 
 heap -> data inside the object
 
+### OOP
+
 OOPs -> a pie -> what is it, example, how to implement in java
 
 
 functional Interface -> has only one abstract method 
+
+### Exceptions
 
 Exceptions -> checked and unchecked exceptions, custom exceptions, try, catch, finally, throw, throws
 throws always will be in our method declaration ->  saying this methods amy throw an exception
