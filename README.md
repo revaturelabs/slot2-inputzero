@@ -68,12 +68,14 @@ String methods -> .length(), .charAt(), .substring(), toUpperCase()/toLowerCase(
 
 String Builder and String Buffer -> difference, threadsafe, which slower or faster
 
+```java
 //reverse a string
 String s = sc.next();
 StringBuffer sb = new StringBuffer(s);
 sb.reverse();
 String rev_s = sb.toString();
-		 
+```
+
 thread -> program in execution
 main thread -> main method
 multiple threads are created to perform the task simulante
